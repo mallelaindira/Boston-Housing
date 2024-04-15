@@ -1,4 +1,3 @@
-
 # Load the Boston Housing dataset
 library(MASS)  # Required for the dataset
 data(Boston)
@@ -33,5 +32,24 @@ r_squared <- summary(lm_model)$r.squared  # R-squared value
 cat("Mean Squared Error (MSE):", mse, "\n")
 cat("Root Mean Squared Error (RMSE):", rmse, "\n")
 cat("R-squared:", r_squared, "\n")
+
+# Plot a scatterplot of actual vs predicted values
+plot(test_data$medv, predicted,
+     xlab = "Actual Values",
+     ylab = "Predicted Values",
+     main = "Actual vs Predicted")
+abline(0, 1, col = "red")  # Add a 45-degree reference line
+
+# Plot residuals vs fitted values
+plot(lm_model, which = 1)
+
+# Create a histogram of residuals
+hist(residuals(lm_model), main = "Histogram of Residuals")
+
+# Create a Q-Q plot for normality checking
+plot(lm_model, which = 2)
+
+
+
 
 
