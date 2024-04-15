@@ -9,9 +9,12 @@ Evaluation of the linear regression model is essential to understand its perform
 
 **Diagnostic Plots:**
 - **Actual vs Predicted Plot:** This scatterplot shows the actual values against the predicted values. Ideally, the points should lie close to the 45-degree reference line, indicating good model performance.
-- 
+ ![Image Description](https://github.com/mallelaindira/Boston-Housing/raw/main/Rplot.png)
 - **Residuals vs Fitted Values Plot:** This plot helps to check for the presence of heteroscedasticity. If the residuals have a consistent variance across the fitted values, it suggests homoscedasticity, which is desirable. Patterns in the plot, like a funnel or U-shape, might indicate potential issues.
+![Image Description](https://github.com/mallelaindira/Boston-Housing/raw/main/Rplot01.png)
 - **Histogram of Residuals:** The histogram provides insights into the distribution of residuals. Ideally, the residuals should follow a normal distribution with a mean close to 0.
+   ![Image Description](https://github.com/mallelaindira/Boston-Housing/raw/main/Rplot02.png)
 - **Q-Q Plot for Normality Checking:** The Quantile-Quantile (Q-Q) plot helps to assess the normality of residuals. If the residuals follow a normal distribution, the points in the Q-Q plot will lie on a straight line. Deviations from this line suggest potential violations of the normality assumption.
+ ![Image Description](https://github.com/mallelaindira/Boston-Housing/raw/main/Rplot03.png)
 
 By examining these evaluation metrics and diagnostic plots, you can assess the performance, assumptions, and potential issues related to the linear regression model. Based on the results, you may decide to refine the model further or use it for prediction tasks.
