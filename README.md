@@ -3,9 +3,9 @@ Boston Housing Prices - Regression Model Evaluation
 Evaluation of the linear regression model is essential to understand its performance and adequacy. The R code provided calculates three main evaluation metrics and generates four diagnostic plots to assess the model. Here's a detailed description of the evaluation:
 
 **Evaluation Metrics:**
-- **Mean Squared Error (MSE):** MSE measures the average squared difference between the actual and predicted values. A smaller MSE value indicates better model performance.
-- **Root Mean Squared Error (RMSE):** RMSE is the square root of MSE, making it on the same scale as the target variable. Similar to MSE, a smaller RMSE indicates better model performance.
-- **R-squared:** R-squared measures the proportion of the variance in the target variable that the model explains. An R-squared value closer to 1 indicates better model performance, meaning the model explains a large portion of the variance in the target variable.
+- **Mean Squared Error (MSE):** MSE measures the average squared difference between the actual and predicted values. A smaller MSE value indicates better model performance. In this model it is calculated at 23.07
+- **Root Mean Squared Error (RMSE):** RMSE is the square root of MSE, making it on the same scale as the target variable. Similar to MSE, a smaller RMSE indicates better model performance. In this model it is calculated at 4.80
+- **R-squared:** R-squared measures the proportion of the variance in the target variable that the model explains. An R-squared value closer to 1 indicates better model performance, meaning the model explains a large portion of the variance in the target variable. In this model it is calculated as 73.23
 
 **Diagnostic Plots:**
 - **Actual vs Predicted Plot:** This scatterplot shows the actual values against the predicted values. Ideally, the points should lie close to the 45-degree reference line, indicating good model performance.
