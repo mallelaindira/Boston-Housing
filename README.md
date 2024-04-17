@@ -17,4 +17,4 @@ Evaluation of the linear regression model is essential to understand its perform
 - **Q-Q Plot for Normality Checking:** The Quantile-Quantile (Q-Q) plot helps to assess the normality of residuals. If the residuals follow a normal distribution, the points in the Q-Q plot will lie on a straight line. Deviations from this line suggest potential violations of the normality assumption.
  ![Image Description](https://github.com/mallelaindira/Boston-Housing/raw/main/Rplot03.png)
 
-By examining these evaluation metrics and diagnostic plots, you can assess the performance, assumptions, and potential issues related to the linear regression model. Based on the results, you may decide to refine the model further or use it for prediction tasks.
+Looking at this QQ plot since lot of dots are away from the line, we can conclude that the model could be improved. By examining these evaluation metrics and diagnostic plots, you can assess the performance, assumptions, and potential issues related to the linear regression model. Based on the results, you may decide to refine the model further or use it for prediction tasks.
